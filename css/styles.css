@@ -306,6 +306,12 @@ padding-bottom: 32px;
     justify-content: center;
     background-color: #4D5AE5;
 }
+.person-soc-link:hover {
+background-color: tomato;
+}
+.person-soc-link:hover > .person-soc-icon{
+    fill: violet;
+ }
 .person-soc-icon{
     fill:  #F4F4FD;
 }
