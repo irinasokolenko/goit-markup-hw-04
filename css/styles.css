@@ -137,6 +137,12 @@ body {
  /*section 1*/
  .hero {
  background-color: var(--second-title-color);
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7)),
+ url(../images/people-office\ 1.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
  padding-top: 180px;
  padding-bottom: 180px;
 }
@@ -276,11 +282,34 @@ body {
  text-align: center;
  letter-spacing: 0.02em;
  color: var(--second-slate-color);
+ margin-bottom: 32px;
 }
 .description{
 padding-top: 32px;
 padding-bottom: 32px;
 }
+.person-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.person-soc-item {
+    width: 40px;
+    height: 40px;
+}
+.person-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4D5AE5;
+}
+.person-soc-icon{
+    fill:  #F4F4FD;
+}
+ 
  /*footer*/
  .footer-bottom-link {
  background-color: var(--second-title-color);
