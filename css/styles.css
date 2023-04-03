@@ -211,6 +211,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
+    color: #2E2F42;
 }
 .sambol-defs-icon {
  background: #F4F4FD;
@@ -332,7 +333,7 @@ padding-bottom: 32px;
     background-color: #4D5AE5;
 }
 .person-soc-link:hover {
-background-color: #F4F4FD;
+ background-color: #F4F4FD;
 }
 .person-soc-link:hover > .person-soc-icon{
     fill:#4D5AE5;
