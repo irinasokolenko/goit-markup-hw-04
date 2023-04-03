@@ -194,7 +194,29 @@ body {
  padding-top: 120px;
  align-items: center;
  }
- .abaut-calk{
+ .sambol-defs {
+}
+.sambol-defs-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.sambol-defs-item {
+}
+.sambol-defs-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.sambol-defs-icon {
+ background: #F4F4FD;
+ border-radius: 4px;
+}
+.abaut-calk{
     width: calc((100% - 72px) / 4);   
  }
 .abaut-list {
