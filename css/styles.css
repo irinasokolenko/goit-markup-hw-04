@@ -337,6 +337,7 @@ padding-bottom: 32px;
 .person-soc-icon{
     fill: #F4F4FD;
  }
+ /*секция5*/
  .div-customers {
      padding-bottom: 72px;
      padding-top: 120px;
@@ -369,6 +370,9 @@ padding-bottom: 32px;
 
  
  /*footer*/
+ .footer-container{
+    display: flex;
+ }
  .footer-bottom-link {
  background-color: var(--second-title-color);
  padding-top: 100px;
@@ -397,6 +401,20 @@ color:var(--fon-cloud-color)
     max-width: 264px;
     margin-top: 17px;
  }
+.social-media{
+ 
+}
+.social-name{
+ weight: 500;
+ size: 16px;
+ line-height: 1.5;
+ text-align: center;
+ color: #FFFFFF;
+ justify-content: center;
+ padding-top: 100px;
+ padding-left: 540px;
+ }
+
      /**button portfolio**/
  .batton-portfolio{
  padding-top: 96px;
