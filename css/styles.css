@@ -213,10 +213,7 @@ body {
     justify-content: center;
     gap: 24px;
 }
-.abaut-list list{
-    display: flex;
-    gap: 24px;
-}
+
 .sambol-defs-icon {
  background: #F4F4FD;
  border-radius: 4px;
@@ -225,7 +222,6 @@ body {
 }
 .abaut-calk{
     width: calc((100% - 72px) / 4);  
-     
  }
 .abaut-list {
  display: flex;
@@ -330,6 +326,7 @@ padding-bottom: 32px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 .person-soc-item {
     width: 40px;
@@ -345,13 +342,13 @@ padding-bottom: 32px;
     background-color: #4D5AE5;
 }
 .person-soc-link:hover {
- background-color: #F4F4FD;
+ background-color: #31D0AA;
 }
 .person-soc-link:hover > .person-soc-icon{
     fill:#4D5AE5;
  }
 .person-soc-icon{
-    fill: #F4F4FD;
+    fill: #FFFFFF;
  }
  /*секция5*/
  .div-customers {
