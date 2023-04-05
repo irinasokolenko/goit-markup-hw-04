@@ -40,9 +40,13 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px
+     rgba(46, 47, 66, 0.16), 0px 1px 6px
+     rgba(46, 47, 66, 0.08);
  }
 .header-container{
     display: flex;
+    
 }
 .header-nav-link {
     display: flex;
@@ -140,7 +144,7 @@ body {
  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
   rgba(46, 47, 66, 0.7)),
  url(../images/people-office\ 1.jpg);
- min-width: 1440px;
+ max-width: 1440px;
  margin: 0 auto;
  background-repeat: no-repeat;
  background-position: center;
@@ -195,31 +199,39 @@ body {
  align-items: center;
  }
  .sambol-defs {
+ height: 112px;
+ border: none;
+ border-radius: 4px;
+ margin-bottom: 8px;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
 }
 .sambol-defs-list {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
-.sambol-defs-item {
-}
-.sambol-defs-link {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+.abaut-list list{
+    display: flex;
+    gap: 24px;
 }
 .sambol-defs-icon {
  background: #F4F4FD;
  border-radius: 4px;
+
+
 }
 .abaut-calk{
-    width: calc((100% - 72px) / 4);   
+    width: calc((100% - 72px) / 4);  
+     
  }
 .abaut-list {
  display: flex;
  gap: 24px;
-}
+ justify-content: center;
+ }
 .abaut-list-taytan{
  font-weight: 500;
  font-size: 20px;
