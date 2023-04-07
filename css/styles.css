@@ -207,6 +207,8 @@ body {
  justify-content: center;
  align-content: center;
  align-items: center;
+ background: #F4F4FD;
+ border-radius: 4px;
 }
 .sambol-defs-list {
     display: flex;
@@ -215,9 +217,7 @@ body {
 }
 
 .sambol-defs-icon {
- background: #F4F4FD;
- border-radius: 4px;
-}
+ }
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -353,9 +353,6 @@ padding-bottom: 32px;
 .person-soc-link:focus {
  background-color: #404BBF;
 }
-.person-soc-link:hover > .person-soc-icon{
-    fill:#4D5AE5;
- }
 .person-soc-icon{
     fill: #FFFFFF;
  }
@@ -388,15 +385,15 @@ padding-bottom: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #8E8F99;
 }
 .customers-soc-icon{
-    color: curent Color;
+    fill: currentcolor;
 }
 .customers-soc-link:hover,
 .customers-soc-link:focus{
     border-color: #404BBF;
-    color: #AFB1B8;
+    color: #404BBF;
  }
  
  /*footer*/
@@ -469,9 +466,7 @@ color:var(--fon-cloud-color)
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
-    justify-content: center;
-    align-items: baseline;
-    margin-bottom: 24px;
+     margin-bottom: 16px;
   }
 
      /**button portfolio**/
