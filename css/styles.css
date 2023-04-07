@@ -481,13 +481,10 @@ color:var(--fon-cloud-color)
  font-weight:500;
  font-size:16px;
  line-height:1.50;
- align-items:center;
- text-align:center;
+  text-align:center;
  letter-spacing: 0.04em;
   cursor:pointer;
   color: #4d5ae5;
-  flex-direction: row;
-  justify-content: center;
   margin:0 auto;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
